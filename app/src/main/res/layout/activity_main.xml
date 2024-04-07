@@ -9,7 +9,7 @@
     android:id="@+id/drawer_layout"
     tools:openDrawer="start"
     tools:context=".MainActivity"
-    android:background="@color/cadet_blue">
+    android:background="@color/rain">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,7 +20,6 @@
             android:layout_width="match_parent"
             android:layout_height="50sp"
             android:id="@+id/toolbar"
-            android:elevation="5sp"
             android:background="@color/cadet_blue"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
